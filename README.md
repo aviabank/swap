@@ -1,23 +1,32 @@
-# swap
-# €SWAP — Interest Rate Swap Token  **Derivatives Layer of AviaTrust on Solana.**  First derivative instrument of the AviaTrust ecosystem. On-chain interest-rate hedging for aircraft financing, gated by three-layer audit (€AUDT → €PROOF → €CERT).  ---  ## 📜 Contract
+# AviaSwap (SWAP) — Interest Rate Swap Token
 
+**Derivatives Layer of AviaTrust on Solana.**
 
-**Status:** Not yet minted. Contract address will be published after deploy.
+First derivative instrument of the AviaTrust ecosystem. On-chain interest-rate hedging for aircraft financing, gated by three-layer audit (€AUDT → €PROOF → €CERT).
 
+---
+
+## 📜 Contract
+3B6aBYVxQLzVSsrYJtZnmFhbR3tzA6TZoAhfJYmhgAnM
+
+**Pool (Meteora DAMM V2):**
+5Kpq5umZRNjsvQUhF3voPMr6PD9w1U2LxiFWhLpNj9ov
+
+**Pair:** €SWAP / USDC
 **Chain:** Solana
 **Standard:** Token-2022 (with Transfer Fee + Transfer Hook)
 **Transfer Fee:** 1%
 **Decimals:** 9
-**Mint Authority:** Disabled (post-launch)
+**Mint Authority:** Disabled
 **Freeze Authority:** Disabled
-**Launch Price:** €0.01
-**Target:** ×100 → €1.00 (community-stated)
+**Launch Price:** $0.01153
+**Target:** ×100 (community-stated)
 
 ---
 
-## 🔄 What is €SWAP?
+## 🔄 What is AviaSwap?
 
-€SWAP is an **Interest Rate Swap Token** — a financial derivative that lets aircraft operators and lessors hedge interest-rate risk on aircraft financing.
+AviaSwap (€SWAP) is an **Interest Rate Swap Token** — a financial derivative that lets aircraft operators and lessors hedge interest-rate risk on aircraft financing.
 
 **How it works:**
 
@@ -47,9 +56,9 @@ Enforced by **Token-2022 Transfer Hook** — code, not policy.
 
 | File | Description |
 |------|-------------|
-| `index.html` | Home page — hero, liquidity, buy, about, ecosystem |
+| `index.html` | Home page — hero, buy, about, ecosystem |
 | `buy.html` | Buy page — 4 payment methods, amount selector |
-| `trade.html` | Trade page — pool info, DEX links |
+| `trade.html` | Trade page — live chart, pool info, DEX links |
 | `fintech1.html` | 4 swap models — Fixed/Float, Reverse, Basis, Amortizing |
 | `fintech2.html` | Mechanics — Token-2022 specs, 3 gates, lifecycle |
 | `staking.html` | Stake €CERT for access — 3 tiers |
@@ -74,16 +83,16 @@ Enforced by **Token-2022 Transfer Hook** — code, not policy.
 
 ---
 
-## 🔗 Links (update after mint)
+## 🔗 Links
 
 | Platform | URL |
 |----------|-----|
-| Jupiter | https://jup.ag/tokens/SWAPContractAddressHere |
-| OpenSea | https://opensea.io/token/solana/SWAPContractAddressHere |
-| GeckoTerminal | https://www.geckoterminal.com/solana/pools/SWAPPoolAddressHere |
-| Solscan | https://solscan.io/token/SWAPContractAddressHere |
-| Birdeye | https://birdeye.so/token/SWAPContractAddressHere?chain=solana |
-| DexScreener | https://dexscreener.com/solana/SWAPPoolAddressHere |
+| OpenSea | https://opensea.io/token/solana/3B6aBYVxQLzVSsrYJtZnmFhbR3tzA6TZoAhfJYmhgAnM |
+| GeckoTerminal | https://www.geckoterminal.com/solana/pools/5Kpq5umZRNjsvQUhF3voPMr6PD9w1U2LxiFWhLpNj9ov |
+| Binance Web3 | https://app.binance.com/uni-qr/web3-token-details?tokenCA=3B6aBYVxQLzVSsrYJtZnmFhbR3tzA6TZoAhfJYmhgAnM&binanceChainId=CT_501&chain=sol |
+| Solscan | https://solscan.io/token/3B6aBYVxQLzVSsrYJtZnmFhbR3tzA6TZoAhfJYmhgAnM |
+| Birdeye | https://birdeye.so/token/3B6aBYVxQLzVSsrYJtZnmFhbR3tzA6TZoAhfJYmhgAnM?chain=solana |
+| DexScreener | https://dexscreener.com/solana/5Kpq5umZRNjsvQUhF3voPMr6PD9w1U2LxiFWhLpNj9ov |
 
 ---
 
@@ -101,7 +110,7 @@ Enforced by **Token-2022 Transfer Hook** — code, not policy.
 - €LUMP — Lump Sum
 
 **Derivatives Layer:**
-- **€SWAP — Interest Rate Swap ← you are here**
+- **€SWAP — AviaSwap ← you are here**
 - €FWD — Aircraft Forward
 - €RIGHT — Purchase Right
 - €FLEET — Fleet Futures
@@ -116,12 +125,8 @@ Enforced by **Token-2022 Transfer Hook** — code, not policy.
 1. Create GitHub repository `swap`
 2. Upload all files listed above
 3. Add media files (logo, coin, chart, diagrams, video)
-4. **Replace placeholders** — find and replace all 3:
-   - `SWAPContractAddressHere` → real mint address
-   - `SWAPPoolAddressHere` → real Meteora pool address
-   - `FWDContractAddressHere`, `RIGHTContractAddressHere`, `FLEETContractAddressHere` — leave as-is until those tokens launch
-5. Enable GitHub Pages: **Settings → Pages → Source: main / root**
-6. Site goes live at `https://aviabank.github.io/swap/`
+4. Enable GitHub Pages: **Settings → Pages → Source: main / root**
+5. Site goes live at `https://aviabank.github.io/swap/`
 
 ---
 
